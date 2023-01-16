@@ -32,7 +32,7 @@ useEffect(() => {
   
 const getUsersDetails = async () => {
     let response = await getUsers();
-    console.log(response);
+    console.log(response);    
     setUsers(response.data);
 }
 
@@ -57,8 +57,8 @@ const deleteUserData = async (id) => {
             </TableHead>
             <TableBody>
                {
-                users.map(user =>(
-                    < Tbody>
+                users.map(user => (
+                    <Tbody>
                         <TableCell>{user.id}</TableCell>
                         <TableCell>{user.name}</TableCell>
                         <TableCell>{user.username}</TableCell>

@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "name": "Joy Bhowmik",
-      "username": "joybhowmik",
+      "name": "Joy ",
+      "username": "joy",
       "email": "joy@gmail.com",
       "phone": "88888888",
       "id": 1
@@ -13,6 +13,13 @@
       "email": "sb@gmail.com",
       "phone": "777777",
       "id": 2
+    },
+    {
+      "name": "Joy Bhowmik",
+      "username": "obikbhowmik",
+      "email": "joybhowi",
+      "phone": "777777",
+      "id": 3
     }
   ]
 }
